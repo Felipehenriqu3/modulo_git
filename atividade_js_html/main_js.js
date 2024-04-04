@@ -6,11 +6,11 @@ function validarFormulario() {
 
     if (valorCampoB > valorCampoA) {
         mensagemPositiva.innerHTML = "Formulário válido!";
-        mensagemNegativa.innerHTML = ""; // Limpa mensagem negativa, se houver
-        return true; // Permite o envio do formulário
+        mensagemNegativa.innerHTML = ""; 
+        return true; 
     } else {
         mensagemNegativa.innerHTML = "Formulário inválido. O número B deve ser maior que o número A.";
-        mensagemPositiva.innerHTML = ""; // Limpa mensagem positiva, se houver
-        return false; // Impede o envio do formulário
+        mensagemPositiva.innerHTML = ""; 
+        return false; 
     }
 }
